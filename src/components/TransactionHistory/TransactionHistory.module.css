@@ -1,0 +1,21 @@
+.transTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+.transTable .transThead {
+  background-color: black;
+  color: #fff;
+}
+.transTable,
+.transTh,
+.transTd {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.transTd {
+  color: black;
+}
+.transTr:nth-child(even) {
+  background-color: gray;
+}
